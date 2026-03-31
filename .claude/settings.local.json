@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(g++ importDemo.cpp DynamicArray.cpp -o importDemo)",
+      "Bash(./importDemo)",
+      "Bash(g++ importDemoNoHeader.cpp -o importDemoNoHeader)",
+      "Bash(./importDemoNoHeader)",
+      "Bash(g++ noHeader.cpp -o noHeader)",
+      "Bash(./noHeader)",
+      "Bash(xxd importDemo.o)",
+      "Bash(nm importDemo.o)",
+      "Bash(nm DynamicArray.o)"
+    ]
+  }
+}

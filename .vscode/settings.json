@@ -1,0 +1,18 @@
+{
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.hover.enabled": false,
+  "editor.inlayHints.enabled": "off",
+  "C_Cpp.autocomplete": "disabled",
+  "C_Cpp.inlayHints.autoDecltypeDeduction.enabled": false,
+  "C_Cpp.inlayHints.parameterNames.enabled": false,
+  "C_Cpp.inlayHints.referenceOperator.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": false
+}
