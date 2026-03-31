@@ -1,12 +1,10 @@
-#include <vector>
 #include <unordered_map>
-
-using namespace std;
+#include <vector>
 
 class Solution {
 public:
-    bool hasDuplicate(const vector<int>& nums) {
-        unordered_map<int, bool> map;
+    bool hasDuplicate(const std::vector<int>& nums) {
+        std::unordered_map<int, bool> map;
 
         for(int i = 0; i < nums.size() ; i++) {
             if (map[nums[i]]) {
