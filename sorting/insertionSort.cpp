@@ -1,3 +1,8 @@
+/*
+This sort compares elements with the previous sorted array, moves the original array to right, overwrites the current Pair while he finds the correct position for the new Pair
+*/ 
+
+
 #include <string>
 #include <vector>
 
