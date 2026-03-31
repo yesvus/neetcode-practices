@@ -39,6 +39,7 @@ int DynamicArray::getCapacity() { return capacity; }
 
 DynamicArray::~DynamicArray() { delete[] arr; }
 
+#ifdef DYNAMIC_ARRAY_DEMO
 int main() {
   DynamicArray arr(2); // Create a dynamic array with initial capacity of 2
 
@@ -57,3 +58,4 @@ int main() {
 
   return 0;
 }
+#endif
