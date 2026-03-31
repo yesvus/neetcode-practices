@@ -9,7 +9,7 @@
   "editor.parameterHints.enabled": false,
   "editor.inlineSuggest.enabled": false,
   "editor.formatOnSave": false,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "off",
   "editor.inlayHints.enabled": "off",
   "C_Cpp.autocomplete": "disabled",
   "C_Cpp.inlayHints.autoDecltypeDeduction.enabled": false,
