@@ -32,16 +32,10 @@ private:
     char revertPar(char Par) {
         if (Par == '(') 
             return ')';
-        else if (Par == ')') 
-            return ')';
         else if (Par == '[') 
             return ']';
-        else if (Par == ']')
-            return '[';
         else if (Par == '{')
             return '}';
-        else if (Par == '}')
-            return '{';
         else return -1;
     }
 
